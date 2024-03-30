@@ -1,0 +1,38 @@
+export const Users=[
+	{
+		type:"FREE",
+		month:"$0/month",
+		user:"  ✓ Single User",
+		storage:'  ✓ 50GB Storage',
+		projects:'  ✓ Unlimited Public Projects',
+		access:'  ✓ Community Access',
+		PrivatePro:'  ✗ Unlimited Private Projects',
+		dedicate:'  ✗ Dedicated Phone Support',
+		subdomain:'  ✗ Free Subdomain',
+		Monthstatus:'  ✗ Monthly Status Reports',
+	},
+	{
+		type:'PLUS',
+		month:'$9/month',
+		user:'  ✓ 5 Users',
+		storage:'  ✓ 50GB Storage',
+		projects:'  ✓ Unlimited Public Projects',
+		access:'  ✓ Community Access',
+		PrivatePro:'  ✓ Unlimited Private Projects',
+		dedicate:'  ✓ Dedicated Phone Support',
+		subdomain:'  ✓ Free Subdomain',
+		Monthstatus:'  ✗ Monthly Status Reports',
+	},
+	{
+		type:'PRO',
+		month:'$49/month',
+		user: '  ✓ Unlimited Users',
+		storage:'  ✓ 50GB Storage',
+		projects:'  ✓ Unlimited Public Projects',
+		access:'  ✓ Community Access',
+		PrivatePro:'  ✓ Unlimited Private Projects',
+		dedicate:'  ✓ Dedicated Phone Support',
+		subdomain:'  ✓ Free Subdomain',
+		Monthstatus:'  ✓ Monthly Status Reports',
+	}
+];

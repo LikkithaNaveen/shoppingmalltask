@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,187 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.profilepic{
+
+  height: 200px;
+  width: 200px;
+  
+
+}
+.outline{
+  border: 1px solid black
+}
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  /* //gap: 10px; */
+
+}
+.priceborder{
+  height: 490px;
+  width: 800px;
+  border: 1px solid black;
+  margin: 15px 30%;
+  background-color:rgba(4, 93, 201, 0.869); 
+  display: flex;
+ 
+  
+ 
+}
+.borderinside{
+  background-color: white;
+  height: 460px;
+  width: 250px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 25px;
+  
+}
+.type{
+  color: rgba(158, 152, 152, 0.975);
+  font-weight:normal;
+  font-size: small;
+ 
+
+}
+.List{
+    text-align:justify;
+    font-weight: bolder;
+
+    
+  
+}
+button{
+  padding: 5px;
+  height: auto;
+  width: 80px;
+  
+  color: rgb(3, 2, 1);
+  background-color:rgba(4, 93, 201, 0.869); 
+
+}
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.button1{
+  border:none;
+  border-radius:0px;
+  padding:6px;
+  font-size:16px;
+  cursor:pointer;
+  background-color: white;
+}
+
+button:hover{
+  background-color:#4f95b5;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color:#fff;
+  border-radius:5px;
+  width:auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
+
+.dropdown-options a {
+  display:flex; 
+  color: #000000;
+  padding: 40px;
+  text-decoration: none;
+  padding:10px 70px !important;
+  font-weight: bold;
+}
+
+.dropdown-options a:hover {
+  color: #0a0a23;
+  background-color: #ddd;
+  border-radius:5px;
+}
+.secondstage{
+  padding  :50px;
+  background-color: black;
+  color: white;
+  width:2050px;
+}
+.shopcontainer{
+  height: 450px;
+  width:350px;
+  margin-left: 10%;
+  margin-top: 3%;
+  border: 1px solid black;
+  gap:2px;
+  
+}
+.shopposter{
+  height:250px;
+  width:350px;
+
+
+}
+
+.shopingborder{
+  height: auto;
+  width: auto;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 4px;
+  margin: 5% 18%; 
+}
+.cartinside{
+  row-gap:2px;
+}
+.buttonstyle{
+  border:none;
+  border-radius:0px;
+  padding:6px;
+  font-size:12px;
+  cursor:pointer;
+  background-color: white;
+  width :auto;
+  border: 1px solid black;
+}
+.todoheading{
+ width: 2000px;
+ height: 25px;
+  color:rgb(11, 209, 123);
+}
+.buttonstyleform{
+  border:none;
+  border-radius:0px;
+  padding:1%;
+  font-size:12px;
+  cursor:pointer;
+  background-color: rgb(11, 209, 123);
+  width :auto;
+  height: 25px;
+  font-weight: bold;
+  
+  border: 1px solid black;
+}
+.applicantContainer{
+  height:400px;
+  width:300px;
+  margin: 2%;
+  border: 1px solid  rgb(11, 209, 123);   
+  background-color: rgb(11, 209, 123);
+}
+.MovieContainer{
+    height:300px;
+    width:300px;
+    margin: 5%;
+    border: 1px solid rgb(138, 235, 193);
+    background-color: rgb(138, 235, 193);
+    
 }
