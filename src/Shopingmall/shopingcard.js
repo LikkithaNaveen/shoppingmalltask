@@ -7,7 +7,7 @@ const ShoppingCard = ({image, Product, dollar, rating, cart, setcart}) => {
 return (
     <>
         <div class='shopcontainer'>
-            <img class="shopposter" src={image}></img>
+            <img class="shopposter" src={image} alt=""></img>
             <div class="cartinside">
                 <h3>{Product}</h3>
                 <h4>{rating}</h4>

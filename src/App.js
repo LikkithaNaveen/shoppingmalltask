@@ -3,7 +3,7 @@ import './App.css';
 
 import Navbar from './Shopingmall/Navbar';
 import SecondStage from './Shopingmall/SecondStage';
-import ShoppingCard from './Shopingmall/shopingcard';
+//import ShoppingCard from './Shopingmall/shopingcard';
 import Shoppingmallitems from './Shopingmall/Shoppingmallitems';
 import { useState } from 'react';
 
