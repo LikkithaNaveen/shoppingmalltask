@@ -171,7 +171,7 @@ button:hover{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 4px;
-  margin: 5% 18%; 
+  margin: 5% 10%; 
 }
 .cartinside{
   row-gap:2px;
